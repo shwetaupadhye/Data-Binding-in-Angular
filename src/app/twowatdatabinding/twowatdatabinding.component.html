@@ -1,0 +1,12 @@
+<h1>This is two way data binding </h1>
+<h2>Enter value in textarea and set it to
+    paragraph tag</h2>
+    
+
+<textarea rows="6" [(ngModel)]="enteredValue">
+</textarea>
+<br><br>
+
+<button (click)="onAddPost()">Bind Data</button>
+
+<p>{{ newPost }}</p>
